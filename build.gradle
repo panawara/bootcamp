@@ -1,0 +1,35 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.2.70'
+}
+apply plugin: 'application'
+
+group 'bootcamp'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'kotlin'
+mainClassName = "MainKt"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+    implementation "com.opencsv:opencsv:4.3"
+    implementation "javax.xml.bind:jaxb-api:2.3.0"
+    implementation "javax.activation:activation:1.1"
+    implementation "org.glassfish.jaxb:jaxb-runtime:2.3.0"
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.1.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.1.1'
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+compileTestKotlin {
+    kotlinOptions.jvmTarget = "1.8"
+}
+test {
+    useJUnitPlatform()
+}
