@@ -2,7 +2,7 @@ package parser.xml
 
 import javax.xml.bind.annotation.XmlAccessType
 import javax.xml.bind.annotation.XmlAccessorType
-
+//odnośnik do parsera, korekta wartości
 @XmlAccessorType(XmlAccessType.FIELD)
 data class RequestXml
 @JvmOverloads constructor(

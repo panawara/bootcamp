@@ -1,7 +1,7 @@
 package util
 
 import parser.xml.RequestXml
-
+//co jeżeli wartość będzie nieprawidłowa
 class RequestXmlValidator: (Int, RequestXml) -> Boolean {
 
     override fun invoke(index: Int, requestXml: RequestXml): Boolean {
