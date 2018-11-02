@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="util.mapper.RequestFromXmlTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-28T15:34:14" hostname="DESKTOP-I8BMK5F" time="0.0">
+<testsuite name="util.mapper.RequestFromXmlTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-29T11:55:52" hostname="DESKTOP-I8BMK5F" time="0.0">
   <properties/>
   <testcase name="invoke()" classname="util.mapper.RequestFromXmlTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>

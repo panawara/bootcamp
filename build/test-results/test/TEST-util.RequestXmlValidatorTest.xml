@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="util.RequestXmlValidatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-10-28T15:34:14" hostname="DESKTOP-I8BMK5F" time="0.016">
+<testsuite name="util.RequestXmlValidatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-10-29T11:55:52" hostname="DESKTOP-I8BMK5F" time="0.023">
   <properties/>
   <testcase name="requestIdValidation()" classname="util.RequestXmlValidatorTest" time="0.005"/>
-  <testcase name="priceValidation()" classname="util.RequestXmlValidatorTest" time="0.0"/>
-  <testcase name="nameValidation()" classname="util.RequestXmlValidatorTest" time="0.0"/>
+  <testcase name="priceValidation()" classname="util.RequestXmlValidatorTest" time="0.001"/>
+  <testcase name="nameValidation()" classname="util.RequestXmlValidatorTest" time="0.001"/>
   <testcase name="clientIdValidation()" classname="util.RequestXmlValidatorTest" time="0.001"/>
-  <testcase name="quantityValidation()" classname="util.RequestXmlValidatorTest" time="0.004"/>
+  <testcase name="quantityValidation()" classname="util.RequestXmlValidatorTest" time="0.009"/>
   <testcase name="validRequestXml()" classname="util.RequestXmlValidatorTest" time="0.0"/>
   <system-out><![CDATA[(#1) Request hasn't request.
 (#1) Request skipped
